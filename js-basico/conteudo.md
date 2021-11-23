@@ -18,11 +18,11 @@ E tem uma lista imensa de empresas que usam Javascript ou alguma ferramenta que 
 
 Antes da gente encerrar essa parte eu quero fazer um combinado com você. Se você, é uma pessoa que já teve algum contato com o Javascript, preste bastante atenção a essas aulas, pois toda vez que você for criar soluções mais complexas, você vai precisar ter essa base de fundamentos bem sólida. 
 
-| Pontos positivos | Pontos negativos |
-| --- | --- |
-| `uma ótima linguagem para um primeiro contato com a programação e, por consequência, para se estudar lógica de programação` | Pode conter brechas para a execução de ações maliciosas |
-| `Sintaxe acessível` | Pode ser renderizada de maneiras diferentes pelos dispositivos compatíveis, causando problemas de desempenho. |
-| `Grande comunidade ao redor do mundo fazendo a ferramenta evoluir` | Atualizações nem sempre compatíveis com todos os navegadores e sistemas existentes. |
+| Pontos positivos                                                                                                            | Pontos negativos                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `uma ótima linguagem para um primeiro contato com a programação e, por consequência, para se estudar lógica de programação` | Pode conter brechas para a execução de ações maliciosas                                                       |
+| `Sintaxe acessível`                                                                                                         | Pode ser renderizada de maneiras diferentes pelos dispositivos compatíveis, causando problemas de desempenho. |
+| `Grande comunidade ao redor do mundo fazendo a ferramenta evoluir`                                                          | Atualizações nem sempre compatíveis com todos os navegadores e sistemas existentes.                           |
 
 ### O que é NodeJS?
 
@@ -185,7 +185,7 @@ console.log(typeof alunas) //object
 
 #### 2. Variáveis:
 
-"Variaveis armazemam dados que podem ser denfinidos, atualizados e recuperados sempre que necessário". 
+"Variaveis armazemam dados que podem ser definidos, atualizados e recuperados sempre que necessário". 
 
 Mas como declarar variaveis no JavaScript? 
 
@@ -284,57 +284,57 @@ Precisamos de operadores para realizar qualquer operação em uma linguagem de p
 
 **Aritméticos:**
 
-| Operador | Descrição |
-| --- | --- |
-| `+` | Adição |
-| `-` | Subtração |
-| `*` | Multiplicação |
-| `/` | Divisão |
-| `%` | Módulo ou resto da divisão |
-| `++` | Incremento|
-| `--` | Decremento|
+| Operador | Descrição                  |
+| -------- | -------------------------- |
+| `+`      | Adição                     |
+| `-`      | Subtração                  |
+| `*`      | Multiplicação              |
+| `/`      | Divisão                    |
+| `%`      | Módulo ou resto da divisão |
+| `++`     | Incremento                 |
+| `--`     | Decremento                 |
 
 <br>
 
 **Atribuição:**
 
-| Operador | Descrição |
-| --- | --- |
-| `=` | Atribuição |
-| `+=` | Atribuição de soma |
-| `-=` | Atribuição de subtração |
-| `*=` | Atribuição de multiplicação |
-| `/=` | Atribuição de divisão |
-| `%=` | Atribuição de resto |
+| Operador | Descrição                   |
+| -------- | --------------------------- |
+| `=`      | Atribuição                  |
+| `+=`     | Atribuição de soma          |
+| `-=`     | Atribuição de subtração     |
+| `*=`     | Atribuição de multiplicação |
+| `/=`     | Atribuição de divisão       |
+| `%=`     | Atribuição de resto         |
 <br>
 
 **Comparação:**
 
-| Operador | Descrição |
-| --- | --- |
-| `==` | Igual a |
-| `===` | Igual a (tanto o valor quanto o tipo) |
-| `!=` | Diferente de  |
-| `>` | Maior que |
-| `>=` | Maior ou igual a |
-| `<` | Menor que |
-| `<=` | Menor ou igual a |
+| Operador | Descrição                             |
+| -------- | ------------------------------------- |
+| `==`     | Igual a                               |
+| `===`    | Igual a (tanto o valor quanto o tipo) |
+| `!=`     | Diferente de                          |
+| `>`      | Maior que                             |
+| `>=`     | Maior ou igual a                      |
+| `<`      | Menor que                             |
+| `<=`     | Menor ou igual a                      |
 <br>
 
 **Lógicos:**
 
 | Operador | Descrição |
-| --- | --- |
-| `&&` | E |
-| `||` | Ou |
-| `!` | Negação |
+| -------- | --------- |
+| `&&`     | E         |
+| `||`     | Ou        |
+| `!`      | Negação   |
 
 
 
 <br>
 
 #### 4. Condicionais:
-São instruções de controle que podemos usar ao construir nossos códigos. Vamos estudar estudar 2 estruturas condicionais: if...else e switch.
+São instruções de controle que podemos usar ao construir nossos códigos. Vamos estudar 2 estruturas condicionais: if...else e switch.
 
 - Podemos usar **if** se quisermos executar um bloco de código somente se a condição ou verificação lógica for verdadeira.
 
@@ -408,13 +408,13 @@ Atenção para as palavras reservadas case, break e default.
 ```
 - chamada -> no evento de clique
 - parâmetros -> nao recebiamos 
-- ação -> Pegar o valor digitadi do input e fazer aparecer na tela no elemento resposta
+- ação -> Pegar o valor digitado do input e fazer aparecer na tela no elemento resposta
 - retorno -> texto na tela com sucesso
 
 A verdade é que na vida real, todas nós temos também tarefas e rotinas que seguem alguns critérios.
 
-Exemplo jogar o lixo. Todas as segundas, quartas e sextas, eu posso jogar lixo organico.
-Todas as tercas e quintas, eu posso jogar o lixo reciclável.
+Exemplo jogar o lixo. Todas as segundas, quartas e sextas, eu posso jogar lixo orgânico.
+Todas as terças e quintas, eu posso jogar o lixo reciclável.
 
 - chamada -> nos dias referentes 
 - parâmetros -> dia
@@ -445,11 +445,11 @@ Quando precisamos de uma instrução, uma ação que pode ser executada em difer
 Declaração
 - Usamos a palavra reservada function
 - Podemos dar um nome ou deixá-la anônima
-- não esequecer de usar os parenteses, nele podemos passar parametros ou nao
+- não esquecer de usar os parenteses, nele podemos passar parâmetros ou nao
 - e dentro das chaves colocamos as instruções que podem ter um retorno ou não
 
 Parâmetros
-São informacões que se comportam como variaveis dentro daquela função e que podem ser usadas nas instruções
+São informacões que se comportam como variáveis dentro daquela função e que podem ser usadas nas instruções
 
 Retorno
 Usando a palavra reservada return podemos, instruir nosso código a retornar algo.
@@ -599,9 +599,9 @@ Vamos debugar para perceber como funciona?
 
 *polimorfismo: a capacidade de objetos compativeis, se passar por outro em certas ocaciões. Podemos dessa forma herdar metodos, e reescrever todos os comportamentos. "Podemos brincar a vontade com o DNA do nosso sistema".*
 
-*abstração: não é um conceito concreto, chega ser redundante. O super poder é criarmos a classe mãe o mais abstrata possível, ela recebe o nome de template, identidade ou superclasse. Não pode ser criado um onjeto diretamente dessa classe, mas sim das classes filhas que herdam as caracteristicas e comportamentos da classe mae.*
+*abstração: não é um conceito concreto, chega ser redundante. O super poder é criarmos a classe mãe o mais abstrata possível, ela recebe o nome de template, identidade ou superclasse. Não pode ser criado um objeto diretamente dessa classe, mas sim das classes filhas que herdam as caracteristicas e comportamentos da classe mãe.*
 
-*Se você começou agora, vai perceber com o tempo a importancia desses 4 pilares, pois eles são as bases de técnicas e ferramentas que nos ajudam desde a concepção do projeto até codificação dele. Uma dessas técnicas é o design patterns que nos ajudar a manter um padrão de qualidade em nossos códigos. Além disso, muitas linguagens utilizam esse paradigma: java, python, .Net, Javascript e muitas outras.*
+*Se você começou agora, vai perceber com o tempo a importância desses 4 pilares, pois eles são as bases de técnicas e ferramentas que nos ajudam desde a concepção do projeto até codificação dele. Uma dessas técnicas é o design patterns que nos ajudar a manter um padrão de qualidade em nossos códigos. Além disso, muitas linguagens utilizam esse paradigma: java, python, .Net, Javascript e muitas outras.*
 
 * Como entender classes no JS.
 
@@ -609,12 +609,12 @@ Vamos debugar para perceber como funciona?
 
 * E a palavra reservada this?
 
-*Antes de 2015 as classes eram escritas como funções, após o es6 usamos a sintaxe class e a palavra reservada this é usada para internamente da classe associarmos um valor.*
+*Antes de 2015 as classes eram escritas como funções, após o ES6 usamos a sintaxe class e a palavra reservada this é usada para internamente da classe associarmos um valor.*
 
 
 * Qual a função do constructor nas classes?
 
-*As classes em JavaScript têm um método constructor que permite definir campos quando o objeto é instanciado com uma class, ou seja, é esse método que faz a contrução do objeto quando a gente cria uma intância dessa classe usando a palavra reservada new. Cada classe pode ter apenas um constructor. Se houver mais de um, SyntaxError será lançado. O constructor também pode chamar o método super para chamar o constructor de outra classe se a classe estender uma classe mãe. Configurando assim a herança na POO.*
+*As classes em JavaScript têm um método constructor que permite definir campos quando o objeto é instanciado com uma class, ou seja, é esse método que faz a construção do objeto quando a gente cria uma intância dessa classe usando a palavra reservada new. Cada classe pode ter apenas um constructor. Se houver mais de um, SyntaxError será lançado. O constructor também pode chamar o método super para chamar o constructor de outra classe se a classe estender uma classe mãe. Configurando assim a herança na POO.*
 
 * Quais seriam as situações que seria mais lógico usar classe ao invés de uma função?
 
@@ -624,7 +624,7 @@ Vamos debugar para perceber como funciona?
 
 *Agora para decidir quando usar class ou function, é muito importante lembrar dos conceitos da programação orientada a objeto. Por exemplo quando nós encapsulamos a lógica em uma class, o código fica muito mais limpo e de fácil entendimento em vez de criarmos várias funções.*
 
-*Geralmente usamos classes para construir diferentes objetos com as mesmas propriedades. Exemplo conta bancária. Usamos também em algumas bibliotecas e supersets (class components no React e typescript nos types e interfaces)*
+*Geralmente usamos classes para construir diferentes objetos com as mesmas propriedades. Exemplo conta bancária. Usamos também em algumas bibliotecas e supersets (class components no React e nos types e interfaces)*
 ```
 function Person(name) { this._name = name; }
 
